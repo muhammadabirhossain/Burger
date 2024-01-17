@@ -1,0 +1,279 @@
+/*fonts*/
+@font-face {
+	src: url(../fonts/bebas-neue-2014-font/BebasNeueBold-7B9LE.ttf);
+	font-family: BebasNeue-Bold;
+}
+@font-face {
+	src: url(../fonts/bebas-neue-2014-font/BebasNeueRegular-gxj83.ttf);
+	font-family: BebasNeue-Regular;
+}
+/*font family
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: BebasNeue-Bold;
+font-family: BebasNeue-Regular;
+*/
+
+/*common starts*/
+body {
+	margin: 0;
+	padding: 0;
+	color: #3d2514;
+}
+/*common ends*/
+
+
+/*header starts*/
+header {
+	background-image: url(../images/head_back.jpg);
+	padding: 40px 0;
+	
+}
+.wrapper {
+	overflow: hidden;
+    margin: 0 auto;
+    width: 92%;
+    
+    
+}
+.logo {
+	width: 19%;
+	
+	float: left;
+	
+}
+.logo a {}
+.logo a img {}
+.menu {
+	width: 45%;
+	
+	float: right;
+}
+.menu ul {
+	float: right;
+	margin: 0;
+}
+.menu ul li {
+	
+	float: left;
+	list-style: none;
+	padding: 39px 22px 0px 22px;
+	
+}
+.menu ul li a {
+	font-family: BebasNeue-Bold;
+	font-size: 21px;
+	margin: 0px 15px;
+	padding: 3px 2px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	word-spacing: 6px;
+}
+.menu ul li: last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	border-bottom: 1px solid #626262;
+}
+/*header ends
+border: 1px solid black;
+border: 1px solid red;
+border: 1px solid green;
+
+*/
+
+
+
+/*banner starts*/
+.banner {
+
+	background-image: url(../images/banner_back.jpg);
+
+}
+.title {
+	width: 45%;
+	float: left;
+
+}
+.title p {
+	width: 403px;
+	font-family: BebasNeue-Regular;
+    font-size: 26px;
+    color: #3d2514;
+    transform: uppercase;
+    margin: 150px 0px 0px 10px;
+    border: 1px dashed #3d2514;
+    padding: 8px;
+}
+.b_h1 {
+	font-family: 'Alfa Slab One', cursive;
+    font-size: 117px;
+    margin: 0px 0px 0px 10px;
+    padding: 5px 5px 0px 2px;
+}
+.b_h2 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	margin: 0px 0px 0px 10px;
+	letter-spacing: 2px;
+} 
+
+.combo {
+	float: right;
+	width: 45%;
+	
+	/*background: url(../images/banner_back);*/
+
+}
+.combo img {
+	width: 100%;
+}
+
+/*banner ends*/
+
+/*burger starts*/
+.burger {
+	margin-top: 78px;
+	margin-bottom: 72px;
+}
+.wrapper2 {
+	
+	margin: 0px auto;
+}
+.l_burger {
+	width: 46%;
+	float: left;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+.l_burger img {}
+.r_burger {
+	width: 42%;
+	overflow: hidden;
+	float: right;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+.up {
+	float: left;
+	padding: 0px 1px 38px 0px;
+}
+.down {
+	
+}
+
+/*burger starts*/
+
+
+
+/*about starts*/
+.about {
+
+}
+
+.wrapper2 {
+}
+
+.ab_p {
+	font-family: 'BebasNeue-Bold';
+    font-size: 37px;
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    color: #3d2514;
+    padding: 17px 17px;
+    background-color: #ebeb2c;
+}
+
+.ab_h1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 80px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.ab_p2 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 72%;
+    margin: 0 auto;
+}	
+/*about ends*/
+
+
+
+/*burgerpic starts*/
+.burgerpic {
+}
+
+.wrapper3 {
+	width: 100%;
+}
+
+.s_pic {
+}
+
+.single {
+	float: left;
+	margin: 50px 25px;
+	width: 26%;
+	padding: 30px;
+
+}
+
+.single img {
+	width: 100%;
+
+}
+
+.burger_h2 {
+	font-family: BebasNeue-Bold;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.burger_p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	width: 333px;
+}
+.burger_p2 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 24px;
+	border: 1px solid black;
+	width: 180px;
+	margin: 0 auto;
+	padding: 20px 25px;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	background-color: red;
+
+}
+
+
+/*burgerpic ends*/
+
+.event {
+	width: 90%;
+	margin: 0 auto;
+}
+.event_pic {
+
+}
+.event_pic img {
+	width: 100%;
+}
+
